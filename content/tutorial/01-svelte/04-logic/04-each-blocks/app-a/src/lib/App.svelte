@@ -28,10 +28,30 @@
 	></button>
 
 	<!-- TODO add the rest of the colours -->
-	<button></button>
-	<button></button>
-	<button></button>
-	<button></button>
+	<button
+		aria-current={selected === 'green'}
+		aria-label="green"
+		style="background: green"
+		on:click={() => selected = 'green'}
+	></button>
+	<button
+		aria-current={selected === 'blue'}
+		aria-label="blue"
+		style="background: blue"
+		on:click={() => selected = 'blue'}
+	></button>
+	<button
+		aria-current={selected === 'indigo'}
+		aria-label="indigo"
+		style="background: indigo"
+		on:click={() => selected = 'indigo'}
+	></button>
+	<button
+		aria-current={selected === 'violet'}
+		aria-label="violet"
+		style="background: violet"
+		on:click={() => selected = 'violet'}
+	></button>
 </div>
 
 <style>
