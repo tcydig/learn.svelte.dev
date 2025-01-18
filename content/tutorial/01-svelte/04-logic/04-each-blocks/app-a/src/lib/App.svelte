@@ -27,7 +27,6 @@
 		on:click={() => selected = 'yellow'}
 	></button>
 
-	<!-- TODO add the rest of the colours -->
 	<button
 		aria-current={selected === 'green'}
 		aria-label="green"
